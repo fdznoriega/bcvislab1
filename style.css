@@ -1,0 +1,43 @@
+
+/* ELEMENTS */
+
+h1 {
+    text-align: center;
+    color: crimson;
+    background-color: goldenrod;
+}
+
+p {
+    text-align: center;
+    color: crimson;
+}
+
+img {
+    text-align: center;
+}
+
+/* CLASSES */
+.button-container, .image-container {
+    text-align: center;
+}
+
+/* IDs */
+#generate {
+    color: goldenrod;
+    border-color: crimson;
+    text-align: center;
+    margin: 10px;
+}
+
+/* DESCENDANT */
+#content p {
+    text-align:center;
+    color: goldenrod;
+    padding: 1%;
+    margin: 1.5%;
+}
+
+/* HOVER EFFECT */
+a:hover {
+    background-color: yellow;
+}

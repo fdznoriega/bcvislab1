@@ -4,6 +4,7 @@
 <head>
     <title>~ BC Facts ~</title>
     <link rel="stylesheet" href="node_modules/milligram/dist/milligram.css">
+    <link rel="stylesheet" href="style.css">
     <script defer src="js/main.js"></script>
 
 </head>
@@ -11,22 +12,30 @@
     <h1>BC Facts</h1>
     <p>Welcome to BC Facts</p>
 
-    <!-- Add an ID 'generate' and grab it in the JS file -->
-    <!-- Add a class 'button button-outline' for style it in milligram -->
-    <button id="generate" class="button">Click for a new fact about Boston College</button>
+    <div class="image-container">
+        <img src='https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/BCbuilding1000x667.jpg.transform/gallery-medium/image.jpg' />
+    </div>
+
+    <div class="button-container">
+        <!-- ID generate to grab in JS and class button for style -->
+        <button id="generate" class="button-outline">Click for a new fact about Boston College</button>
+    </div>
     
     <!-- Add an ID 'content' and use it in the JS file to add items here -->
-    <blockquote id="content">
+    <div id="content">
         <!-- Facts are generated in this container  -->
-    </blockquote>
+    </div>
  
-    <img src='https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/BCbuilding1000x667.jpg.transform/gallery-medium/image.jpg' />
     
-    <p>
-        Click
-        <a href='https://www.bc.edu/content/bc-web/offices/office-of-university-communications/our-work/photography.html'>here</a>
-        for more images.
-    </p>
+    <!--- Footer -->
+    <div>
+        <p>
+            Click
+            <a href='https://www.bc.edu/content/bc-web/offices/office-of-university-communications/our-work/photography.html'>here</a>
+            for more images.
+        </p>
+    </div>
+    
 
 
     
