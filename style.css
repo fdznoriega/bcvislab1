@@ -49,13 +49,22 @@ footer {
     text-align: center;
 }
 
+.subtext {
+    font-size: 12px;
+}
+
 /* IDs */
 #generate {
     color: goldenrod;
     border-color: goldenrod;
     text-align: center;
+    font-size: 12px;
     width: 400px;
     margin: 10px;
+}
+
+#generate:hover {
+    background-color:rgba(201, 201, 201, 0.096);
 }
 
 /* DESCENDANT */
