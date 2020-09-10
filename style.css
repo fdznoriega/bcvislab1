@@ -19,14 +19,33 @@ p {
 img {
     text-align: center;
     border-radius: 15px;
+    height: 300px;
+    width: auto;
 }
 
 a {
     color: goldenrod;
 }
 
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(44, 44, 44);
+}
+
 /* CLASSES */
-.button-container, .image-container, .link-container {
+.centered {
+    text-align: center;
+}
+
+.vertical-scrollable {
+    overflow: scroll;
+    height: 255px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
     text-align: center;
 }
 
